@@ -48,6 +48,11 @@
 			"title": "Trail Green"
 		}
 	},
+	"product-title" : {
+		"short" : "M's Houdini™ Jacket",
+		"long" : "M's Lightweight Synchilla Snap-T Pullover Jacket With a Really Really Long Name"
+	},
+	"price" : "$99",
 	"headline" : {
 		"short" : "Lorem ipsum dolor sit (37 characters)",
 		"medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"
