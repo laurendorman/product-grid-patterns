@@ -1,6 +1,5 @@
 **/node_modules/
 .DS_Store
-**/source/
 config.ini
 **/latest-change.txt
 **/patternlab.json
