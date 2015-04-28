@@ -1,0 +1,56 @@
+{
+	"title" : "Pattern Lab",
+	"htmlClass": "pl",
+	"bodyClass": "body",
+	"img": {
+		"landscape-4x3": {
+			"src": "../../images/1105X622_SP_M-Nano-Puff-Pullover.jpg",
+			"alt": "4x3 Image"
+		},
+		"landscape-16x9": {
+			"src": "../../images/1105X622_SP_M-Nano-Puff-Pullover.jpg",
+			"alt": "16x9 Image"
+		},
+		"square": {
+			"src": "../../images/fpo_square.png",
+			"alt": "Square Thumbnail"
+		},
+		"avatar" : {
+			"src" : "../../images/fpo_avatar.png",
+			"alt" : "Person Name"
+		},
+		"rectangle": {
+			"src": "http://placeimg.com/400/300/tech",
+			"alt": "Rectangle"
+		},
+		"product-image": {
+			"src": "../../images/24140_CHRT.jpg",
+			"title": "M's Houdini&#8482; Jacket"
+		},
+		"color-swatch-1": {
+			"src": "../../images/24140_155.jpg",
+			"title": "Black"
+		},
+		"color-swatch-2": {
+			"src": "../../images/24140_ANDB.jpg",
+			"title": "Andes Blue"
+		},
+		"color-swatch-3": {
+			"src" : "../../images/24140_CHRT(1).jpg",
+			"title": "Chartreuse"
+		},
+		"color-swatch-4": {
+			"src": "../../images/24140_NVYB.jpg",
+			"title": "Navy Blue"
+		},
+		"color-swatch-5": {
+			"src": "../../images/24140_TRLG.jpg",
+			"title": "Trail Green"
+		}
+	},
+	"product-title" : {
+		"short" : "M's Houdini™ Jacket",
+		"long" : "M's Lightweight Synchilla Snap-T Pullover Jacket With a Really Really Long Name"
+	},
+	"price" : "$99"
+}

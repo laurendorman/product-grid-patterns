@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head id="patternlab-head">
+    <title>Pattern Lab Sub-type Style Guide</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="../../styleguide/css/styleguide.css" media="all" />
+    <link rel="stylesheet" href="../../styleguide/css/styleguide-specific.css" media="all" />
+  </head>
+  <body class="sg-pattern-list">
+    
+    <!-- View All Patterns in a Pattern Sub-Type -->
+    <div class="sg-main" role="main">
+      
+      <!-- Patterns -->
+      <div id="sg-patterns">
+          <div class="sg-pattern">
+            <h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-00-text-00-price&#x2F;00-atoms-00-text-00-price.html" class="patternLink" data-patternpartial="">price</a></h2>
+            <div class="sg-pattern-body">
+              <span class="price">$99</span>
+              <div class="sg-code" style="display: none">
+                <h3 class="sg-code-head">HTML</h3>
+                <pre class="sg-code-html">
+                  <code>
+                    &lt;span class=&quot;price&quot;&gt;$99&lt;&#x2F;span&gt;
+                  </code>
+                </pre>
+              </div>
+            </div>
+          </div>
+          <div class="sg-pattern">
+            <h2 class="sg-pattern-head" ><a href="../../patterns/00-atoms-00-text-01-product-title&#x2F;00-atoms-00-text-01-product-title.html" class="patternLink" data-patternpartial="">product-title</a></h2>
+            <div class="sg-pattern-body">
+              <a href="#" class="product-title">M&#39;s Houdini™ Jacket</a>
+              <div class="sg-code" style="display: none">
+                <h3 class="sg-code-head">HTML</h3>
+                <pre class="sg-code-html">
+                  <code>
+                    &lt;a href=&quot;#&quot; class=&quot;product-title&quot;&gt;M&amp;#39;s Houdini™ Jacket&lt;&#x2F;a&gt;
+                  </code>
+                </pre>
+              </div>
+            </div>
+          </div>
+      </div> <!--end #sg-patterns-->
+  
+    </div><!--end .sg-main-->
+    
+    <!-- JS to hook everything together and do annotations -->
+    <script>
+      // handle injection of items from PHP
+      var patternPartial = "viewall-atoms-text";
+      var lineage = "";
+    </script>
+    <script src="../../styleguide/js/vendor/jwerty.js"></script>
+    <script src="../../styleguide/js/postmessage.js"></script>
+    <script src="../../data/annotations.js"></script>
+    <script src="../../styleguide/js/annotations-pattern.js"></script>
+    <script src="../../styleguide/js/code-pattern.js"></script>
+    
+  </body>
+</html>

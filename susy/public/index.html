@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html id="patternlab-html">
+<head id="patternlab-head">
+	<title id="title">Pattern Lab</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width" />
+	<link rel="stylesheet" href="styleguide/css/styleguide.css" media="all" />
+	<link rel="stylesheet" href="styleguide/css/styleguide-specific.css" media="all" />
+	<link rel="stylesheet" href="styleguide/css/vendor/typeahead.css" media="all" />
+	<link rel="stylesheet" href="styleguide/css/vendor/prism.css" media="all" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="styleguide/js/vendor/jquery.js"><\/script>')</script>
+</head>
+<body  id="patternlab-body">>
+	<!--Style Guide Header-->
+	<header class="sg-header" role="banner">
+		<a href="#sg-nav-container" class="sg-nav-toggle">Menu</a>
+		<div class="sg-nav-container" id="sg-nav-container">
+<ol class="sg-nav">
+		<li class="sg-nav-atoms"><a class="sg-acc-handle">Atoms</a><ol class="sg-acc-panel">
+			<li class="sg-nav-text"><a class="sg-acc-handle">Text</a><ol class="sg-acc-panel">
+			<li><a href="patterns/00-atoms-00-text-00-price&#x2F;00-atoms-00-text-00-price.html" class="sg-pop  " data-patternpartial="atoms-price">Price</a></li>
+			<li><a href="patterns/00-atoms-00-text-01-product-title&#x2F;00-atoms-00-text-01-product-title.html" class="sg-pop  " data-patternpartial="atoms-product-title">Product title</a></li>
+			<li><a href="patterns/00-atoms-00-text&#x2F;index.html" class="sg-pop  " data-patternpartial="viewall-atoms-text">View All</a></li>
+			</ol></li>
+			<li class="sg-nav-images"><a class="sg-acc-handle">Images</a><ol class="sg-acc-panel">
+			<li><a href="patterns/00-atoms-01-images-00-product-image&#x2F;00-atoms-01-images-00-product-image.html" class="sg-pop  " data-patternpartial="atoms-product-image">Product image</a></li>
+			<li><a href="patterns/00-atoms-01-images-01-color-swatch&#x2F;00-atoms-01-images-01-color-swatch.html" class="sg-pop  " data-patternpartial="atoms-color-swatch">Color swatch</a></li>
+			<li><a href="patterns/00-atoms-01-images-02-active-color-swatch&#x2F;00-atoms-01-images-02-active-color-swatch.html" class="sg-pop  " data-patternpartial="atoms-active-color-swatch">Active color swatch</a></li>
+			<li><a href="patterns/00-atoms-01-images&#x2F;index.html" class="sg-pop  " data-patternpartial="viewall-atoms-images">View All</a></li>
+			</ol></li>
+		</ol></li>
+		<li class="sg-nav-molecules"><a class="sg-acc-handle">Molecules</a><ol class="sg-acc-panel">
+			<li class="sg-nav-components"><a class="sg-acc-handle">Components</a><ol class="sg-acc-panel">
+			<li><a href="patterns/01-molecules-00-components-00-product-text&#x2F;01-molecules-00-components-00-product-text.html" class="sg-pop  " data-patternpartial="molecules-product-text">Product text</a></li>
+			<li><a href="patterns/01-molecules-00-components-01-color-swatch-list&#x2F;01-molecules-00-components-01-color-swatch-list.html" class="sg-pop  " data-patternpartial="molecules-color-swatch-list">Color swatch list</a></li>
+			<li><a href="patterns/01-molecules-00-components&#x2F;index.html" class="sg-pop  " data-patternpartial="viewall-molecules-components">View All</a></li>
+			</ol></li>
+		</ol></li>
+		<li class="sg-nav-organisms"><a class="sg-acc-handle">Organisms</a><ol class="sg-acc-panel">
+			<li class="sg-nav-sections"><a class="sg-acc-handle">Sections</a><ol class="sg-acc-panel">
+			<li><a href="patterns/02-organisms-00-sections-00-product-item&#x2F;02-organisms-00-sections-00-product-item.html" class="sg-pop  " data-patternpartial="organisms-product-item">Product item</a></li>
+			</ol></li>
+		</ol></li>
+		<li class="sg-nav-templates"><a class="sg-acc-handle">Templates</a><ol class="sg-acc-panel">
+			<li><a href="patterns/03-templates-00-product-grid&#x2F;03-templates-00-product-grid.html" class="sg-pop "" data-patternpartial="templates-product-grid">Product grid</a></li>
+		</ol></li>
+	<li><a href="styleguide/html/styleguide.html" class="sg-pop" data-patternpartial="all">All</a></li>
+</ol>
+<!--sg-controls-->
+<div class="sg-controls" id="sg-controls">
+		<div class="sg-control-content">
+			<ul class="sg-control">
+				<li class="sg-size">
+					<div class="sg-current-size">
+						<form id="sg-form">
+							Size <input type="text" class="sg-input sg-size-px" value="---">px / 
+							<input type="text" class="sg-input sg-size-em" value="---">em
+						</form><!--end #sg-form-->
+					</div><!--end #sg-current-size-->
+					<ul class="sg-acc-panel sg-size-options">
+						<li><a href="#" id="sg-size-s">S</a></li>
+						<li><a href="#" id="sg-size-m">M</a></li>
+						<li><a href="#" id="sg-size-l">L</a></li>
+						<li><a href="#" id="sg-size-full">Full</a></li>
+						<li><a href="#" id="sg-size-random">Random</a></li>
+						<li><a href="#" class="mode-link" id="sg-size-disco">Disco</a></li>
+						<li><a href="#" class="mode-link" id="sg-size-hay">Hay!</a></li>
+					</ul>
+				</li>
+				<li class="sg-mqs">
+					<a href="#" class="mode-link sg-acc-handle" id="sg-size-mq" title="Media queries in stylesheet">MQ</a>
+					<ul class="sg-acc-panel sg-left" id="sg-mq">
+					</ul>
+				</li>
+				<li class="sg-find">
+					<a href="#" class="sg-acc-handle sg-control-trigger sg-icon sg-icon-search" id="sg-f-toggle" title="Search Patterns"><span class="is-vishidden">Search Patterns</span></a>
+					<ul class="sg-view sg-acc-panel sg-right sg-checklist" id="sg-find" style="margin-top: 33px;">
+							<li><input class="typeahead" id="typeahead" type="text" placeholder="search for a pattern..."></li>
+					</ul>
+				</li>
+				<li class="sg-view">
+					<a href="#" class="sg-acc-handle sg-control-trigger sg-icon sg-icon-eye" id="sg-t-toggle" title="View"><span class="is-vishidden">View</span></a>
+					<ul class="sg-view sg-acc-panel sg-right sg-checklist" id="sg-view">
+						<li><a href="#" class="sg-checkbox" id="sg-t-annotations">Annotations</a></li>
+						<li><a href="#" class="sg-checkbox" id="sg-t-code">Code</a></li>
+						<li><a href="#" target="_blank" id="sg-raw" class="sg-icon-link">Open in new window</a></li>
+					</ul>
+				</li>
+				<li class="sg-tools">
+					<a href="#" class="sg-acc-handle sg-tools-toggle sg-icon sg-icon-cog" id="sg-tools-toggle" title="Tools"><span class="is-vishidden">Tools</span></a>
+					<ul class="sg-acc-panel sg-right sg-checklist">
+						
+						
+						<li><a href="http://pattern-lab.info/docs/advanced-keyboard-shortcuts.html" class="sg-icon-keyboard" target="_blank">Keyboard Shortcuts</a>
+						<li><a href="http://pattern-lab.info/docs/" class="sg-icon-file" target="_blank">Pattern Lab Docs</a>
+					</ul>
+				</li>
+			</ul>
+			
+		</div>
+</div>
+<!--End #sg-controls-->		</div>
+	</header>
+	<!--End Style Guide Header-->
+	
+	<!-- Iframe -->
+	<div id="sg-vp-wrap">
+		<div id="sg-cover"></div>
+		<div id="sg-gen-container">
+			<iframe id="sg-viewport" sandbox="allow-same-origin allow-scripts"></iframe>
+			<div id="sg-rightpull-container">
+				<div id="sg-rightpull"></div>
+			</div>
+		</div>
+	</div>
+	<!--end iFrame-->
+
+	<!-- the template for the code view slider -->
+	<script type="text/html" id="code-template">
+		<div id="sg-code-close" class="sg-view-close">
+			<a href="#" id="sg-code-close-btn" class="sg-view-close-btn">Close</a>
+		</div>
+		<div id="sg-code-loader">
+			<div class="spinner"></div>
+			Loading pattern...
+		</div>
+		<div id="sg-code-patternstate" style="display: none;">
+			<p>
+				The state of the <span id="sg-code-patternstate-patternname" class="sg-code-patternname"></span> pattern is: <span id="sg-code-patternstate-fill"></span>
+			</p>
+		</div>
+		<div id="sg-code-lineage" style="display: none;">
+			<p>
+				The <span id="sg-code-lineager-patternname" class="sg-code-patternname"></span> pattern contains the following patterns: <span id="sg-code-lineage-fill"></span>
+			</p>
+		</div>
+		<div id="sg-code-lineager" style="display: none;">
+			<p>
+				The <span id="sg-code-lineager-patternname" class="sg-code-patternname"></span> pattern is included in the following patterns: <span id="sg-code-lineager-fill"></span>
+			</p>
+		</div>
+		<div id="sg-code-markup">
+			<ul id="sg-code-tabs">
+				<li id="sg-code-title-html" class="sg-code-title-active">HTML</li>
+				<li id="sg-code-title-mustache">Mustache</li>
+				<li id="sg-code-title-css" style="display: none;">CSS</li>
+			</ul>
+			<div class="clear">
+				<pre><code id="sg-code-fill"></code></pre>
+			</div>
+		</div>
+	</script>
+
+	<!-- the template for the annotations viewer slider -->
+	<script type="text/html" id="annotations-template">
+		<div id="sg-annotation-close" class="sg-view-close">
+			<a href="#" id="sg-annotation-close-btn" class="sg-view-close-btn">Close</a>
+		</div>
+		<div id="sg-comments-container"></div>
+	</script>
+
+	<script src="styleguide/js/vendor/prism.js"></script>
+	<script src="styleguide/js/vendor/jwerty.js"></script>
+	<script src="styleguide/js/vendor/typeahead.bundle.min.js"></script>
+	<script src="styleguide/js/data-saver.js"></script>
+<script>
+	var patternPaths = {"atoms":{"price":"00-atoms/00-text/00-price","product-title":"00-atoms/00-text/01-product-title","product-image":"00-atoms/01-images/00-product-image","color-swatch":"00-atoms/01-images/01-color-swatch","active-color-swatch":"00-atoms/01-images/02-active-color-swatch"},"molecules":{"product-text":"01-molecules/00-components/00-product-text","color-swatch-list":"01-molecules/00-components/01-color-swatch-list"},"organisms":{"product-item":"02-organisms/00-sections/00-product-item"},"templates":{"product-grid":"03-templates/00-product-grid"}}
+</script><script>
+	var viewAllPaths = {"atoms":{"text":"00-atoms-00-text","images":"00-atoms-01-images"},"molecules":{"components":"01-molecules-00-components"},"organisms":{"sections":"02-organisms-00-sections"},"templates":{"templates":"03-templates"}}
+</script>	<script src="styleguide/js/url-handler.js"></script>
+	<script src="styleguide/js/styleguide.js"></script>
+	<script src="styleguide/js/annotations-viewer.js "></script>
+	<script src="styleguide/js/code-viewer.js "></script>
+	<script src="styleguide/js/pattern-finder.js"></script>
+
+</body>
+</html>
